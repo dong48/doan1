@@ -5,7 +5,7 @@ Dashboard hỗ trợ phân tích hành vi tiêu dùng trên dữ liệu Shopee, 
 nhằm rút ra insight theo ngành hàng và theo phân khúc người bán.
 
 ## 2. Link sản phẩm
-- Demo (Streamlit): https://shopee-consumer-insights.streamlit.app/
+https://shopee-consumer-insights.streamlit.app/
 ## 3. Công nghệ sử dụng
 - Python
 - Streamlit
