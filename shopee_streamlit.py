@@ -5,18 +5,11 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-# CẤU HÌNH TRANG CHUNG
+# Cấu hình chungchung
 st.set_page_config(
     page_title="Phân tích hành vi tiêu dùng Shopee",
     layout="wide"
 )
-
-# Nền trắng – chữ đen
-st.set_page_config(
-    page_title="Phân tích hành vi tiêu dùng Shopee",
-    layout="wide"
-)
-
 # Nền trắng – chữ đen 
 st.markdown(
     """
@@ -43,7 +36,7 @@ st.markdown(
 )
 
 
-# HÀM ĐỌC DỮ LIỆU 
+# Hàm đọc dữ liệu 
 @st.cache_data
 def load_data(path: str = "shopee_clean.csv") -> pd.DataFrame:
     """
@@ -1002,6 +995,7 @@ elif main_section == "PHẦN 3: TỔNG KẾT":
             - **Chuẩn hóa triển khai theo mô hình MVC**, tách rõ phần xử lý dữ liệu (Model), hiển thị (View) và điều hướng (Controller) nhằm tăng tính modular, dễ bảo trì và thuận lợi khi bổ sung tính năng mới.
             - **Xây dựng mô hình dự đoán và tích hợp vào Streamlit** để người dùng có thể thao tác và nhận kết quả dự đoán trực tiếp trên dashboard.
             """)
+
 
 
 
